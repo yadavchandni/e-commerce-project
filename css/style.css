@@ -1,0 +1,612 @@
+.navbar-nav
+{
+	position: unset;
+}
+/*=========== drop down ============*/
+
+
+.dropbtn {
+    
+    background-color: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    cursor: pointer;
+}
+
+.dropdown {
+
+    position: relative;
+
+    display: inline-block;
+
+	margin-left: 25px
+}
+
+.dropdown-content {
+
+    display: none;
+
+    position: absolute;
+    
+    overflow: visible;
+
+    min-width: 140px;
+
+    background-color: white;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+
+
+.dropdown-content a {
+    color: black;
+    
+    text-decoration: none;
+
+    display: block;
+}
+
+.dropdown-content a:hover {
+
+	background-color: lightpink;
+}
+
+.dropdown:hover .dropdown-content {
+
+    display: block;
+
+}
+
+.dropdown:hover .dropbtn {
+
+    background-color: skyblue;
+
+}
+
+
+
+/*=-------------- navbar ----------------------*/
+
+*{
+	margin:0;
+
+	padding: 0;
+}
+
+
+.right-menu li{
+
+	display: inline-block;
+
+	margin-top: 30px !important;
+
+	}
+
+
+.right-menu li .fa{
+
+	font-size: 19px;
+
+	margin-right: 10px;
+
+	cursor: pointer;
+	
+	}
+
+
+
+.navbar-brand	
+{
+
+	transform: translateX(-50%);
+
+	margin-left: 78px;
+
+	font-size: 36px
+}
+
+
+
+.navbar-brand-life{
+
+	
+	font-size: 29px;
+	margin-top: 53px;
+	margin-left: -59px;
+
+}
+
+
+.nav-item{
+
+	font-color:white;
+
+	margin-left: 25px;
+}
+
+
+.header{
+
+	 background-color: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+
+}
+
+
+/*
+.navbar{
+
+	padding: 0 0px;
+}*/
+
+
+/*.navbar-toggler{
+
+	
+	padding: 0 !important;
+
+}*/
+
+
+
+
+
+/*  ----------------cart style ------------------*/
+
+
+.cart-item-zero{
+
+	position: absolute;
+
+    bottom: 65px;
+
+    /* right: -35px; */
+
+    padding: 0px 5px;
+    
+    color: var(--orange);
+
+    border-radius: 50%;
+
+    background-color: var(--yellow);
+
+    font-size: 12px;
+
+}
+
+
+/*=--------------end navbar ---------------*/
+
+
+/*=--------------hero and banner----------------------*/
+
+
+.hero{
+
+	
+	/*background:url("../image/banner-img/hero_bg.jpg");*/
+
+	background-repeat: no-repeat;
+
+	background-size:cover;
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: center;
+
+	background-attachment: none;
+
+}
+
+
+.banner
+
+{
+
+	text-align: center;
+
+    background: rgba(255,255,255,.9);
+
+    display: inline-block;
+
+    margin-top: 171px;
+
+    padding: 3.5rem;
+
+    margin-bottom: 15rem;
+
+}
+
+
+
+.banner-tittle
+{
+
+	font-size: 3rem;
+
+	text-transform: uppercase;
+
+	letter-spacing: var(--mainSpacing);
+
+	margin-bottom: 3rem;
+
+}
+
+
+
+
+.banner-btn
+
+{
+
+	padding:1rem 2rem;
+
+	font-size: .5rem;
+
+	transition:var(--mainTransition);
+
+	cursor: pointer;
+
+	border-radius: 18px;
+
+	background-color: orange;
+
+}
+
+
+/*=--------------end hero ------------------*/
+
+/*=--------------product ------------------*/
+
+
+.products
+	{
+
+	padding:3.5rem 0;
+
+	}
+
+
+.section-tittle h2
+
+{
+
+	text-align: center;
+
+	font-size: 2.5rem;
+
+	margin-bottom: 3.5rem;
+
+	text-transform: capitalize;
+
+	letter-spacing: var(--mainSpacing);
+
+		}
+
+
+
+.products-center
+
+{
+
+	width:90vw;
+
+	margin: 0 auto;
+
+	/*max-width: 1170px;*/
+
+	display:grid;
+
+
+/*===where are need to include the more items into a on line =======*/
+
+
+
+	grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+
+
+
+/*=========== fr is defined the fraction ============*/
+
+
+/* where including the four item in one column            */
+
+
+	/* grid-template-columns: 1fr 1fr 1fr 1fr;*/
+
+
+
+	grid-column-gap:2.5rem;
+
+	grid-row-gap:2rem; 
+}
+
+
+.img-container{
+
+	position: relative;
+
+	overflow: hidden;
+}
+
+
+.bag-btn{
+
+	position: absolute;
+
+	top: 70%;
+
+	right: 10%;
+
+	background-color: #fd7e14d1;
+
+	border: none;
+
+	text-transform: uppercase;
+
+	padding: 0.5rem 0.75rem;
+
+	letter-spacing: var(--mainSpacing);
+
+	font-weight: bold;
+
+	transition: var(--mainTransition);
+
+	transform: translateX(101%);
+
+	cursor: pointer;
+}
+
+
+.bag-btn:hover
+
+{
+	color:white;
+}
+
+
+.fa-shopping-cart
+
+{
+	margin-right: 0.5rem;
+}
+
+
+.img-container:hover .bag-btn
+
+{
+	transform: translateX(11%);
+
+}
+
+
+.product-img{
+
+	
+	display: block;
+
+	width: auto;
+
+	min-height: 12rem;
+
+	transition: var(--mainTransition);
+
+
+}
+
+
+.img-container:hover .product-img{
+
+	opacity: 0.5;
+}
+
+
+.product h3{
+
+	text-transform: capitalize;
+
+	font-size: 1.1rem;
+
+	margin-top: 1rem;
+
+	letter-spacing: var(--mainSpacing);
+
+	text-align: center;
+
+}
+
+
+.product h4{
+
+	margin-top: 0.7rem;
+
+	letter-spacing: var(--mainSpacing);
+
+	color:orange;
+
+	text-align: center;
+}
+
+
+
+/*=--------------end of product ------------------*/
+
+/*================== cart ====================*/
+
+.cart-overlay{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width:100%;
+	height: 100%;
+	
+	transition: var(--mainTransition);
+	background-color: rgb(240,157,81,0.5);
+	z-index: 2;
+	visibility: hidden;
+
+}
+
+.cart{
+
+	position: fixed;
+	top: 0;
+	right: 0;
+	width:auto;
+	height: 100%;
+	overflow: scroll;
+	z-index: 3;
+	background-color: rgb(231,226,221);
+	padding: 1.2rem;
+	transition: var(--mainTransition);
+	transform: translateX(100%);
+
+}
+
+.showCart{
+
+	 transform: translateX(0);
+
+}
+
+.transparentsBcg{
+	visibility: visible;
+
+}
+
+@media screen and (min-width: 768px){
+	.cart{
+		width: 30vw;
+		min-width: 450px;
+
+	}
+}
+
+.close-cart{
+	font-size: 1.7rem;
+	cursor: pointer;
+
+}
+
+.cart h2{
+	text-transform: capitalize;
+	text-align: center;
+	letter-spacing: var(--mainSpacing);
+	margin-bottom: 2rem;
+
+}
+
+ /*----------cart-item ------------*/
+
+}
+.cart-item{
+
+	display: grid;
+	align-items: center;
+	grid-template-columns: auto 1fr auto;
+	grid-column-gap: 1.5rem;
+	margin: 1.5rem 0;
+
+}
+
+.cart-item img{
+
+	width: 175px;
+	height: 55px;
+
+}
+
+.cart-item h4{
+
+	font-size: .85rem;
+	text-transform: capitalize;
+	letter-spacing: var(--mainSpacing);
+
+}
+
+.cart-item h5{
+
+	margin:0.5rem.0;
+	letter-spacing: var(--mainSpacing);
+}
+
+
+
+.remove-item{
+
+	color:grey;
+	cursor: pointer;
+}
+
+
+.fa-chevron-down, .fa-chevron-up{
+	color:var(--primaryColor);
+	cursor: pointer;
+}
+
+.banner-btn{
+
+	font-size: 20px;
+}
+
+
+
+/*==================end of  cart item ====================*/
+
+
+.cart-footer{
+
+	margin-top: 2rem;
+	letter-spacing: var(--mainSpacing);
+	text-align: center;
+
+}
+
+.cart-footer{
+
+	text-transform: capitalize;
+	margin-bottom: 1rem;
+
+}
+
+
+/*==================end of  cart ====================*/
+
+/*============ woman fashion style banner item ======*/
+
+
+.products-center1
+
+{
+
+	width:50vw;
+
+	margin: 0 auto;
+
+	/*max-width: 1170px;*/
+
+	display:grid;
+
+
+/*===where are need to include the more items into a on line =======*/
+
+
+
+/*	grid-template-columns: repeat(auto-fit,minmax(260px,1fr,1fr,1fr));
+*/
+
+
+/*=========== fr is defined the fraction ============*/
+
+ 
+/* where including the four item in one column            */
+
+
+	 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+
+
+
+	
+}
+

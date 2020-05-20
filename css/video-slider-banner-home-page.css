@@ -1,0 +1,12 @@
+.video-background{
+	
+	min-width:auto;
+	min-height: auto;
+	height: auto;
+	width: 100%;
+
+	position:relative;
+
+	background-position:cover;
+}
+

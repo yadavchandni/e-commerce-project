@@ -1,0 +1,100 @@
+{
+	"items":[
+		{
+			"sys":{"id":"1"},
+
+
+			"fields":{
+
+				"title":"queen panel bed",
+
+				"price":20.00,
+
+				"image":{"fields": {"file":{
+
+				"url":"../image/bed/bed-white-long.jfif"
+							
+								}	} }
+											
+
+		}	
+	
+},
+
+
+{
+
+
+
+			"sys":{"id":"2"},
+
+
+			"fields":{
+
+				"title":"Takai Queen Size Bed",
+
+				"price":10.99,
+
+				"image":{"fields": {"file":{
+
+				"url":"../image/bed/image-bed23.jfif"
+						
+						} } }
+
+		}
+
+},
+
+
+{
+
+
+
+			"sys":{"id":"3"},
+
+
+			"fields":{
+
+				"title":"Godrej Interio Kontrast Engineered Wood Queen",
+
+				"price":19.99,
+
+				"image":{"fields": {"file":{
+
+				"url":"../image/bed/image-bed23.jfif"
+						
+						} } }
+
+		}
+
+},
+
+
+
+{
+
+
+
+			"sys":{"id":"4"},
+
+
+			"fields":{
+
+				"title":"Stoa Paris Sofa",
+
+				"price":80.99,
+
+				"image":{"fields": {"file":{
+
+				"url":"../image/furnitures/sofa-red.jfif"
+						
+						} } }
+
+		}
+
+},
+
+
+
+	]
+}
